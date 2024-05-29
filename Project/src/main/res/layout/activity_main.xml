@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Splash Screen Layout -->
+    <LinearLayout
+        android:id="@+id/splashScreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/color_animation"> <!-- Set the animated background -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+    <!-- Main Content Layout -->
+    <!-- This will be initially hidden and revealed after the splash screen -->
+    <!-- Add your main content layout here -->
+
+</RelativeLayout>

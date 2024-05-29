@@ -1,0 +1,8 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:drawable="@android:color/holo_red_light" android:duration="1000" />
+    <item android:drawable="@android:color/holo_orange_light" android:duration="1000" />
+    <item android:drawable="@color/primary" android:duration="1000" />
+    <item android:drawable="@android:color/holo_green_light" android:duration="1000" />
+    <item android:drawable="@android:color/holo_blue_light" android:duration="1000" />
+    <item android:drawable="@android:color/holo_purple" android:duration="1000" />
+</animation-list>
